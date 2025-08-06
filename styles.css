@@ -3,16 +3,16 @@
 
 .table-container {
   max-height: 150px; /* Set a maximum height for the scrollable area */
-  width: 500px; /* Set a fixed width */
+  width: 1000px; /* Set a fixed width */
   overflow-y: auto; /* Enable vertical scrolling when content exceeds max-height */
   overflow-x: auto; /* Enable horizontal scrolling if table content is wider than container */
-  padding: 10px;
+  padding: 0px;
 }
 
 table {
   width: 100%; /* Makes the table span the full width of its container */
   border-collapse: collapse; /* Merges adjacent cell borders into a single border */
-  margin: 20px 0; /* Adds space above and below the table */
+  margin: 0px 0; /* Adds space above and below the table */
   font-family: sans-serif; /* Sets a common font for the table content */
 }
 
