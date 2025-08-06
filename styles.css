@@ -38,3 +38,29 @@ thead tr {
     border: 1px solid #4547c9; /* Optional: for visual clarity */
     padding: 10px;
 }
+
+/* -- Second table format styling - fixed header row, scrollable body */
+.table-container {
+  max-height: 300px; /* Set a maximum height for the scrollable area */
+  overflow-y: auto; /* Enable vertical scrolling when content exceeds max-height */
+  overflow-x: auto; /* Enable horizontal scrolling if table content is wider than container */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* Merges adjacent cell borders */
+}
+
+th {
+  position: sticky; /* Makes the header sticky */
+  top: 0; /* Sticks the header to the top of its scroll container */
+  background-color: #f2f2f2; /* Add a background to prevent content from showing through */
+  z-index: 1; /* Ensures the header stays on top of scrolling content */
+  padding: 8px;
+  text-align: left;
+}
+
+td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
