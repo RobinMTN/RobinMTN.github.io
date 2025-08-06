@@ -33,7 +33,8 @@ thead tr {
 
 .scrollable-div {
     height: 150px; /* Set a fixed height */
-    overflow-y: auto; /* Enable vertical scrolling */
+    width: 500px; /* Set a fixed height */
+    overflow-y: scroll; /* Enable vertical scrolling */
     border: 1px solid #4547c9; /* Optional: for visual clarity */
     padding: 10px;
 }
