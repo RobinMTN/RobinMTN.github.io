@@ -30,3 +30,10 @@ thead tr {
   background-color: #007bff; /* Sets a distinct background for the header row */
   color: white; /* Sets white text for the header row */
 }
+
+.scrollable-div {
+    height: 150px; /* Set a fixed height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    border: 1px solid #4547c9; /* Optional: for visual clarity */
+    padding: 10px;
+}
